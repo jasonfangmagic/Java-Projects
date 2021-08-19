@@ -8,9 +8,12 @@ public class ifelse {
     if (s.equals("Jason")) {
         System.out.println("You typed Jason");
     }
+    else if (s.equals("Hello")) {
+        System.out.println("Hi");
+        }
     else {System.out.println("Fine");
 
     }
-        System.out.println("Printed");
+
     }
 }
