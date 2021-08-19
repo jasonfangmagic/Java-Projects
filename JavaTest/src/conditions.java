@@ -5,7 +5,8 @@ public class conditions {
         int z =10;
 
         // > < == >= <= !=//
-        boolean compare;
-        System.out.println();
+        boolean compare = x > y  && z < 1;
+
+        System.out.println(compare);
     }
 }
