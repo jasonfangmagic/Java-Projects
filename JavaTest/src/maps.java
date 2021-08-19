@@ -8,6 +8,6 @@ public class maps {
 
         m.put("Jason", 5);
 
-        System.out.println(m);
+        System.out.println(m.get("Jason"));
     }
 }
