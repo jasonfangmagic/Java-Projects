@@ -1,8 +1,8 @@
 import java.util.ArrayList;
 
 public class classes {
-    private String name;
-    private int age;
+    public String name;
+    public int age;
     //constructive method//
 
     public classes(String name, int age){

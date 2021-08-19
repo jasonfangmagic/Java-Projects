@@ -7,5 +7,8 @@ public class dog {
         Bill.speak();
         int x = Bill.getAge();
         System.out.println(x);
+
+        inheritance jason = new inheritance("jason", 5, 2);
+        jason.speak();
     }
 }
