@@ -6,7 +6,7 @@ public class input {
         String scanned = sc.next();
         int x = Integer.parseInt(scanned);
 
-        System.out.println(x);
+        System.out.println(scanned);
 
     }
 }
