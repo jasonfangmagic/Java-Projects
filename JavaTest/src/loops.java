@@ -11,9 +11,13 @@ public class loops {
            System.out.println("Input: ");
            String input = sc.nextLine();
            names[i] = input;
+
         }
        for(String n:names) {
            System.out.println(n);
+           if (n.equals("Jason")){
+               break;
+           }
        }
     }
 }
