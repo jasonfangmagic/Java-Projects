@@ -13,4 +13,8 @@ public class classes {
     public void speak() {
         System.out.println("I am " + this.name + " and I am " + this.age + " years old");
     }
+
+    public int getAge() {
+        return this.age;
+    }
 }
